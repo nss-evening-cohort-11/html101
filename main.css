@@ -1,3 +1,43 @@
 body {
-  background-color: bisque;
+  background-color: red;
+  clear: both;
+  font-family: fantasy;
+  margin-bottom: 100px;
+  margin: 0;
+  min-height: 400px;
+  text-align: center;
+}
+
+.nav-list {
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  background-color: #333;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
